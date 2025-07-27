@@ -184,18 +184,18 @@ func main() {
 	log.Printf("🔐 JWT Expire: %s", cfg.JWT.Expire)
 	log.Printf("🏗️  Environment: %s", cfg.Server.Environment)
 
-	fmt.Println("\n🔗 เส้นทาง API ที่สำคัญ:")
-	fmt.Println("   Health Check: http://localhost:%s/api/v1/health", cfg.Server.Port)
-	fmt.Println("   Version: http://localhost:%s/api/v1/version", cfg.Server.Port)
-	fmt.Println("   Swagger UI: http://localhost:%s/swagger/", cfg.Server.Port)
+	fmt.Printf("\n🔗 เส้นทาง API ที่สำคัญ:")
+	fmt.Printf("   Health Check: http://localhost:%s/api/v1/health\n", cfg.Server.Port)
+	fmt.Printf("   Version: http://localhost:%s/api/v1/version\n", cfg.Server.Port)
+	fmt.Printf("   Swagger UI: http://localhost:%s/swagger/\n", cfg.Server.Port)
 
 	fmt.Println("\n⚡ เซิร์ฟเวอร์พร้อมใช้งาน! กด Ctrl+C เพื่อหยุด")
 	fmt.Println("=====================================")
 
 	// แสดงข้อความเริ่มต้น
 	fmt.Println("\n✅ เซิร์ฟเวอร์เริ่มทำงานแล้ว!")
-	fmt.Println("📱 เปิดเบราว์เซอร์ไปที่: http://localhost:" + cfg.Server.Port + "/api/v1/health")
-	fmt.Println("📚 Swagger: http://localhost:" + cfg.Server.Port + "/swagger/")
+	fmt.Printf("📱 เปิดเบราว์เซอร์ไปที่: http://localhost:" + cfg.Server.Port + "/api/v1/health\n")
+	fmt.Printf("📚 Swagger: http://localhost:" + cfg.Server.Port + "/swagger/\n")
 
 	// ตรวจสอบว่าเป็น development mode หรือไม่
 	if cfg.Server.Environment == "development" {
