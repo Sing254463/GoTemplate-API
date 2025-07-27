@@ -126,8 +126,8 @@ GoTemplate/
 
 ### 1. Clone โปรเจค
 ```bash
-git clone https://github.com/Sing254463/GoTemplate.git
-cd GoTemplate
+git clone https://github.com/Sing254463/GoTemplate-API.git
+cd GoTemplate-API
 ```
 
 ### 2. ติดตั้ง Dependencies
