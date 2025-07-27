@@ -207,18 +207,23 @@ APP_DESCRIPTION=Go API template with authentication and user management
 
 ## 🚀 การรันโปรแกรม
 
-### Development Mode (Hot Reload)
+### 🔥 Development Mode (สำหรับนักพัฒนา)
 ```bash
 air
 ```
 
-### Production Mode
-```bash
-# Build โปรแกรม
-go build -o tmp/main.exe .
+### 🏭 Production Mode (สำหรับผู้ใช้ทั่วไป)
+**กดที่ไฟล์ `run-server.bat`**
 
-# รันโปรแกรม
-./tmp/main.exe
+หรือรันแบบ manual:
+```bash
+# Windows
+go build -o tmp/main.exe .
+tmp\main.exe
+
+# Linux/Mac  
+go build -o tmp/main .
+./tmp/main
 ```
 
 ### Generate Swagger Documentation
