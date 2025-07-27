@@ -215,10 +215,10 @@ air
 ### Production Mode
 ```bash
 # Build โปรแกรม
-go build -o bin/main.exe .
+go build -o tmp/main.exe .
 
 # รันโปรแกรม
-./bin/main.exe
+./tmp/main.exe
 ```
 
 ### Generate Swagger Documentation
