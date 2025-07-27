@@ -161,7 +161,7 @@ CREATE TABLE users (
 
 -- สร้าง admin user เริ่มต้น (password: admin123)
 INSERT INTO users (username, email, password, role) VALUES 
-('admin', 'admin@example.com', '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
+('admin', 'admin@example.com', '$2a$10$EPDc9uf5wyld3TzdUzmPkeAwwx3.ajT1vLne07aB81ZdPdU8gw.ty', 'admin');
 ```
 
 ## 🔧 การตั้งค่า
